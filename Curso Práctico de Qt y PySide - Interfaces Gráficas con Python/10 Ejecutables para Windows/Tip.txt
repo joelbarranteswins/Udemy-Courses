@@ -1,0 +1,2 @@
+recuerda instalar 
+pip install pipenv

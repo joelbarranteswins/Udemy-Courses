@@ -1,0 +1,8 @@
+Tener en cuenta que resources.qrc debe estar en
+ la misma carpeta que el main.py
+
+para convertir un .ui a .py
+uic -g python mainwindow.ui -o mainwindow.py
+
+para convertir de .qrc a .py
+rcc -g python resources.qrc -o resources_rc.py
